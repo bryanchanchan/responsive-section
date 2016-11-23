@@ -10,8 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: "Noto", sans-serif;
-  line-height: 1.3;
+  font: normal 100%/1.3 "Noto Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -24,7 +23,7 @@ body {
 
 .img-flex {
   width: 100%;
-  display block;
+  display: block;
 }
 
 .section-letter {
@@ -47,4 +46,11 @@ section p {
 
 section {
   background-color: #e5c30a;
+  overflow: hidden;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 45em;
+  padding: 1.3rem;
 }
