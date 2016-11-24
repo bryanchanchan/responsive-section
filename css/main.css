@@ -61,7 +61,6 @@ section {
   .section-letter {
     padding: .3rem 1.3rem;
   }
-  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -69,5 +68,37 @@ section {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .section-letter,
+  .section-icon {
+    width: 7em;
+  }
+
+  .section-body {
+    width: 25em;
+  }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .section-letter,
+  .section-icon {
+    width: 10em;
+  }
+
+  .section-body {
+    width: 30em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
   }
 }
